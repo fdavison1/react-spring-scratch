@@ -226,21 +226,27 @@ h1 {
 /* *********EXAMPLE 4******************/
 
 .unicorn {
+  position: absolute;
   padding: 0;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   user-select: none;
-  background: #ADF5D3;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .c {
   margin: 200px 0;
+  display: flex;
   position: absolute;
-  width: 90ch;
+  flex-direction: column;
+  width: 80ch;
   height: 50ch;
   cursor: pointer;
   will-change: transform, opacity;
+  justify-content: flex-end;
+  align-items: center;
 }
 /* .front,
 .back {
@@ -254,7 +260,7 @@ h1 {
 .front {
   background-size: contain;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   background-image: url(https://thelibertarianrepublic.com/wp-content/uploads/2015/07/neil-patrick-harris-background-1-783424.jpg);
 }
 
@@ -305,3 +311,10 @@ h1 {
   box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.2);
 }
 
+.span {
+  color: #262626;
+  font-size: 4.5rem;
+  text-shadow: 3px 3px white;
+  margin: 0 auto;
+  text-align: center;
+}

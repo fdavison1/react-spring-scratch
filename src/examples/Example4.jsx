@@ -11,8 +11,8 @@ function Card() {
   })
   return (
     <div className='unicorn'  onClick={() => set(state => !state)}>
-      <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} >Too dope for you</a.div>
-      <a.div class="c front"style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(720deg)`) }}>NPH on a unicorn, your arguement is invalid</a.div>
+      <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} ><div className='span'>Too dope for you</div></a.div>
+      <a.div class="c front"style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(720deg)`) }}><div className='span'>NPH on a unicorn, your argument is invalid</div></a.div>
     </div>
   )
 }
