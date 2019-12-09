@@ -4,6 +4,7 @@ import Example1 from './examples/Example1'
 import Example2 from './examples/Example2'
 import Example3 from './examples/Example3'
 import Example4 from './examples/Example4'
+import Example5 from './examples/Example5'
 
 function App() {
   return (
@@ -11,13 +12,14 @@ function App() {
       
       <div>
         <h1>React Spring</h1>
+        
       </div>
       <Example1 />
       <Example2 />
       <Example3 />
       <br/>
+      <Example5 />
       <Example4 />
-
     </div>
   );
 }

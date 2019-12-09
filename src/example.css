@@ -154,7 +154,7 @@ body {
   position: absolute;
   will-change: transform;
   border-radius: 50%;
-  background:radial-gradient(#002eff, #262626);
+  background:radial-gradient(#00bf8f, #262626);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   opacity: 0.6;
 }
@@ -226,10 +226,8 @@ h1 {
 /* *********EXAMPLE 4******************/
 
 .unicorn {
-  margin: 0;
-  margin-top: 800px;
   padding: 0;
-  height: 100%;
+  height: 100vh;
   width: 100vh;
   user-select: none;
   background: #ADF5D3;
@@ -238,6 +236,7 @@ h1 {
 }
 
 .c {
+  margin: 150px 0;
   position: absolute;
   width: 80ch;
   height: 80ch;
@@ -263,6 +262,50 @@ h1 {
 .blob {
   height: 100vh;
 }
+
+/* *********EXAMPLE 5****************** */
+
+.plant {
+  display: flex;
+  justify-content: center;
+  background: #f0f0f0;
+  padding: 15px;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  user-select: none;
+  border: solid red;
+}
+
+
+.list {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+  width: 100vh;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.list > div {
+  position: absolute;
+  will-change: transform, width, height, opacity;
+  padding: 15px;
+}
+
+.list > div > div {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.2);
+}
+
 
 
 
