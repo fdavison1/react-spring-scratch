@@ -28,7 +28,7 @@
     font-weight: 800;
     color: black;
     background: #f0f0f0;
-    margin: 50px 0;
+    margin: 0;
   }
   
   .script-bf-box {
@@ -206,4 +206,68 @@ body {
   filter: url('#goo');
   overflow: hidden;
 }
+
+* {
+  text-align: center;
+}
+
+h1 {
+  font-size: 10rem;
+  margin: 0 auto;
+  width: 100vw;
+  padding: 0;
+  position: absolute;
+  top: 300px;
+  z-index: 20;
+  color: #999911;
+}
+
+
+/* ******************* */
+
+html,
+body,
+.unicorn {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  background: #ADF5D3;
+}
+.unicorn > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c {
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px;
+  width: 50ch;
+  height: 50ch;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+.front,
+.back {
+  background-size: cover;
+}
+.back {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(http://cdn.wallpapername.com/3900x2194/20121026/neil%20patrick%20harris%20unicorns%20harold%20and%20kumar%203900x2194%20wallpaper_www.wallpapername.com_58.jpg);
+}
+.front {
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  background-image: url(https://thelibertarianrepublic.com/wp-content/uploads/2015/07/neil-patrick-harris-background-1-783424.jpg);
+}
+
+
+
+
 

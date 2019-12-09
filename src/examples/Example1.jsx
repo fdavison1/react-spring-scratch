@@ -18,6 +18,7 @@ export default function App() {
   return (
   
   <div className='example1'>
+
   {items.map(i => <animated.div key={i} className="script-bf-box" style={{ transform: radians.interpolate(interp(i)) }} />)}
 </div>
 )
