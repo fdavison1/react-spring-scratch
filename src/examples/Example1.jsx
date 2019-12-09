@@ -2,7 +2,6 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import range from 'lodash-es/range'
-import './Example1.css'
 
 const items = range(4)
 const interp = i => r => `translate3d(0, ${15 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`

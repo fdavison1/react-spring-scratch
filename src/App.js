@@ -1,7 +1,8 @@
 import React from 'react';
-import './examples/Example1.css'
+import './example.css'
 import Example1 from './examples/Example1'
 import Example2 from './examples/Example2'
+import Example3 from './examples/Example3'
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       
       <Example1 />
       <Example2 />
-   
+      <Example3 />
+
     </div>
   );
 }
